@@ -125,9 +125,11 @@ brew "qt"
 
 # Programming languages
 brew "libyaml" # should come after openssl
-brew "node"
 brew "rbenv"
 brew "ruby-build"
+
+# Removed node to nvm instead
+# brew "node"
 
 # Databases
 brew "postgres", restart_service: true
